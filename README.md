@@ -1,5 +1,8 @@
 Scentronix Design System Test
 
+## Prerequisites
+Node version: >= 18
+
 ## Start With StoryBook
 
 First, install dependencies:
