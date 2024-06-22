@@ -65,7 +65,7 @@ export const MyButton = ({
             {startIcon && (
               <Box
                 sx={{
-                  marginRight: (theme) => theme.spacing(1),
+                  marginRight: (theme) => theme.spacing(1), // gap between icon and label
                 }}
               >
                 {startIcon}
@@ -82,11 +82,11 @@ export const MyButton = ({
           {price && (
             <Box
               sx={{
-                marginLeft: (theme) => theme.spacing(1),
+                marginLeft: (theme) => theme.spacing(1), // gap between label and price
                 fontWeight: "bold",
               }}
             >
-              ${price}
+              €{price}
             </Box>
           )}
         </Box>
@@ -95,7 +95,7 @@ export const MyButton = ({
             sx={{
               textAlign: "left",
               color: (theme) => theme.palette.grey[500],
-              marginTop: (theme) => theme.spacing(1),
+              marginTop: (theme) => theme.spacing(1), // gap to description
               fontSize: (theme) => theme.spacing(1.5),
             }}
           >
@@ -107,7 +107,7 @@ export const MyButton = ({
             display="flex"
             justifyContent={"flex-start"}
             sx={{
-              marginTop: (theme) => theme.spacing(2),
+              marginTop: (theme) => theme.spacing(2), // gap to tags
             }}
           >
             {tags?.map((tag, index) => (

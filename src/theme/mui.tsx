@@ -54,6 +54,7 @@ export const muiTheme = createTheme({
         colorPrimary: {
           backgroundColor: "#000",
           color: "#fff",
+          boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
           ":hover": {
             backgroundColor: "#000",
           },
@@ -61,6 +62,7 @@ export const muiTheme = createTheme({
         colorSecondary: {
           backgroundColor: "#fff",
           color: "#000",
+          boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
           ":hover": {
             backgroundColor: "#fff",
           },

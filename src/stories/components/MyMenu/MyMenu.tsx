@@ -119,7 +119,7 @@ export const MyMenu = ({ label, products, placement, ...props }: MenuProps) => {
         disablePortal
         sx={{
           zIndex: (theme) => theme.zIndex.modal,
-          marginRight: (theme) => theme.spacing(2) + "!important",
+          marginRight: (theme) => theme.spacing(2) + "!important", // gap between button and menu
         }}
       >
         {({ TransitionProps, placement }) => (
@@ -137,7 +137,7 @@ export const MyMenu = ({ label, products, placement, ...props }: MenuProps) => {
                   display={"flex"}
                   flexDirection={"column"}
                   aria-labelledby="composition-button"
-                  gap={1}
+                  gap={1} // gap between items
                 >
                   {products.map((product, index) => (
                     <MyButton
